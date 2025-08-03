@@ -12,7 +12,7 @@ env:
 jobs:
   # Job de vérification et tests
   test:
-    runs-on: ubuntu-latest
+uses: actions/upload-artifact@v4
     
     steps:
     - uses: actions/checkout@v4
